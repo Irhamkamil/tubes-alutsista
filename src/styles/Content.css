@@ -41,13 +41,14 @@
 }
 
 .buttonContent .login {
-  background-color: skyblue;
+  background-color: black;
   color: white;
   transition: 0.5s ease;
 }
 
 .buttonContent .login:hover {
-  background-color: #2f6c7d;
+  background-color: skyblue;
+  color: black;
 }
 
 .senjata p {

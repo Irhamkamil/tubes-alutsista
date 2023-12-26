@@ -7,8 +7,8 @@ function Contents() {
     <div className="Content">
       <div className="senjata">
         <img className="logSenjata" src={senjata} alt="Senjata tentara" />
-        <div class="buttonContent">
-          <a href="/" class="login">
+        <div className="buttonContent">
+          <a href="/" className="login">
             More
           </a>
         </div>

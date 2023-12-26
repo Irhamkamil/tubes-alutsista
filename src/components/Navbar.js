@@ -4,8 +4,8 @@ import "../styles/Navbar.css";
 
 function Navbar() {
   return (
-    <div class="navbar">
-      <div class="container">
+    <div className="navbar">
+      <div className="container">
         <div>
           <img className="Logo" src={logo} alt="PT Techno Barokah Jaya" />
         </div>
@@ -15,14 +15,14 @@ function Navbar() {
               <a href="/">Home</a>
             </li>
             <li>
-              <a href="/">About</a>
+              <a href="/about">About</a>
             </li>
             <li>
-              <a href="/">Logistics</a>
+              <a href="/logistic">Logistics</a>
             </li>
           </ul>
-          <div class="button">
-            <a href="/" class="login">
+          <div className="button">
+            <a href="/login" className="login">
               Login
             </a>
           </div>

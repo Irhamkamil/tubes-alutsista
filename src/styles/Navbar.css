@@ -22,10 +22,10 @@
 }
 
 .Logo {
-  width: 150px;
-  height: 170px;
+  width: 200px;
+  height: 220px;
   position: absolute;
-  top: -20px;
+  top: -40px;
 }
 
 nav {
@@ -53,6 +53,7 @@ nav ul li a {
 
 nav ul li a:hover {
   background-color: skyblue;
+  color: white;
 }
 
 .navbar .button a {

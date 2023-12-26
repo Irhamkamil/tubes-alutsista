@@ -5,22 +5,24 @@
   box-sizing: border-box;
 }
 
-.Logistics {
+.jumbotron-header {
+  /* background-color: #282c34; */
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  background-color: black;
+  background-color: skyblue;
 }
 
-.Logistics-header h1 {
+#jumbotron_app1 {
   font-size: 50px;
-  color: white;
+  color: black;
 }
 
-.isiLogistics {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+#jumbotron_app2 {
+  font-size: 25px;
+  color: black;
+  position: relative;
+  top: 20px;
 }

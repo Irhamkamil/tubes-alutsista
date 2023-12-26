@@ -1,25 +1,21 @@
 import React from "react";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import "./styles/App.css";
-import Navbar from "./components/Navbar";
-import About from "./components/About";
-import Logistics from "./components/Logistics";
-import Footer from "./components/Footer";
+import HomePage from "./pages/HomePage";
+import AboutPage from "./pages/AboutPage";
+import LogisticPage from "./pages/LogisticPage";
+import LoginPage from "./pages/LoginPage";
 
 function App() {
-  const logHeading = () => {
-    return "Our Content";
-  };
   return (
-    <div className="App">
-      <Navbar />
-      <header className="App-header">
-        <h1 class="heading_app1">Sistem Informasi Alutsista</h1>
-        <h2 id="heading_app2">PT . TECHNO BAROKAH MANDIRI</h2>
-      </header>
-      <About />
-      <Logistics logHeading={logHeading} />
-      <Footer />
-    </div>
+    <Router>
+      <Routes>
+        <Route path="/" element={<HomePage />} />
+        <Route path="/about" element={<AboutPage />} />
+        <Route path="/logistic" element={<LogisticPage />} />
+        <Route path="/login" element={<LoginPage />} />
+      </Routes>
+    </Router>
   );
 }
 
